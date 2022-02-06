@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio"
+    android:background="#AEC8EF"
+    >
+
+    <Button
+        android:id="@+id/button_configuracion2"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Configuración"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        app:cornerRadius="70dp"
+
+        app:strokeColor="@color/blue"
+        app:strokeWidth="3dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Inicio"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/blue"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <Button
+        android:id="@+id/button_buscar"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Buscar"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        app:cornerRadius="70dp"
+
+        app:strokeColor="@color/blue"
+        app:strokeWidth="3dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/button_cerrar_sesion"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Cerrar Sesión"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        app:cornerRadius="70dp"
+
+        app:strokeColor="@color/blue"
+        app:strokeWidth="3dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/icono_accesibilidad"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="624dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
